@@ -1,3 +1,5 @@
+## Started on : 18/02/2024
+
 ## Basic skeleton :
 
 ```cpp
@@ -27,6 +29,67 @@ int main()
     int x, y;
     cin >> x >> y;
     cout << "x + y : " << x + y;
+    
+    return 0;
+}
+```
+
+## Data types :
+
+1. int
+2. long
+3. long long
+4. float
+5. double
+6. string
+7. char - can store all 256 characters present in English dictionary
+
+## Taking a String input using getline() :
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    string s;
+    // getline - takes the entire string as a whole sentence as input.
+    getline(cin, s);
+    
+    cout<<s;
+    
+    return 0;
+}
+```
+
+## Switch statement :
+
+```cpp
+int main()
+{
+    int day;
+    cin >> day;
+    
+    switch(day){
+        case 1:
+            cout<<"Monday";
+            break;
+        case 2:
+            cout<<"Tuesday";
+            break;
+        case 3:
+            cout<<"Wednesday";
+            break;
+        case 4:
+            cout<<"Thursday";
+            break;
+        default :
+            cout<<"Invalid number";
+            break; // If this break is not written, below o/p statement is also executed.
+            
+        cout<<"Check";
+    }
     
     return 0;
 }
