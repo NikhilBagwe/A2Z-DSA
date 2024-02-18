@@ -94,3 +94,22 @@ int main()
     return 0;
 }
 ```
+
+## Arrays :
+
+- In CPU memory, the contents of array are stored consecutively next to each other starting from arr[0].
+
+```cpp
+int main()
+{
+    int arr[5];
+    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+    
+    cout << arr[2];
+    
+    // 2D array
+    int arrr[3][5]  // arr[row][column]
+    
+    return 0;
+}
+```
