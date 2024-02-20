@@ -113,3 +113,16 @@ int main()
     return 0;
 }
 ```
+
+## Pass by Value :
+
+- A copy of variable is sent to the function. Thus, has no effect/change on original value stored in variable.
+
+
+## Pass by Reference 
+
+- The operations are performed on the original variable value.
+- In case of integers, string, etc. simply append a "&" before the parameter name in function.
+- Eg: void func(int &num) {}
+- In C++, Arrays are by default passed with Reference so no need to append "&" while passing them in a function.
+- Vectors, maps are not passed with reference.
